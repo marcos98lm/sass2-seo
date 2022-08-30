@@ -1,0 +1,14 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+.main-quienes-somos{
+background-color: darkgray;
+border: solid black 5 px;
+margin: 10px 10px 10px 10px;
+
+}
+.nuestra_historia{
+    text-align: center;
+}
