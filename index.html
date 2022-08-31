@@ -12,14 +12,14 @@
     <title>car audio cordoba</title>
 </head>
 
-<body>
+<body class="bg-secondary">
     <div class="container">
         <header>
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <nav class="navbar bg-light">
                         <div class="container-fluid">
-                            <a class="navbar-brand" href="./index.html">
+                            <a class="navbar-brand" href="./index.html" id="logo">
                                 <img src="../car audio/images/descarga.png" alt="" width="50" height="40"
                                     class="d-inline-block align-text-top">
                                 car audio cordoba
@@ -41,7 +41,7 @@
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="./pages/potencias.html">potencias</a></li>
-                                    <li><a class="dropdown-item" href="#">cables</a></li>
+                                    <li><a class="dropdown-item" href="./pages/cables.html">cables</a></li>
                                     <li><a class="dropdown-item" href="./pages/subwoofer.html">subwoofer</a></li>
                                     <li><a class="dropdown-item" href="./pages/estereos.html">stereos</a></li>
                                     <li><a class="dropdown-item" href="./pages/parlantes.html">parlantes</a></li>
@@ -70,7 +70,7 @@
                         <label for="search" class="catalogo">CATALOGO</label>
                         <input type="search" placeholder="buscar producto">
                         <input type="button" value="buscar">
-                        <button class="button_2"><a href="./pages/estereos.html">TIENDA</a></button>
+                        <button class="button_2"><a href="./pages/potencias.html">TIENDA</a></button>
                     </fieldset>
                 </div>
             </nav>
@@ -131,30 +131,30 @@
                     </div>
                 </div>
             </div>
-            <div class="puntos">
-
-
-                <div class="productos">
-                    <h2>potencias</h2>
-                    <img src="./images/" alt="">
+            
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./images/combo pionner 12.webp" class="d-block w-100" alt="..." width="600px" height="420px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/subwoofer monster 1000.webp" class="d-block w-100" alt="..." width="600px" height="420px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./images/boss elite.webp" class="d-block w-100" alt="..." width="600px" height="420px">
+                  </div>
                 </div>
-                <div>
-                    <h2>parlantes</h2>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <h2>estereos</h2>
-                    <img src="" alt="">
-
-                </div>
-                <div>
-                    <h2>cables</h2>
-                    <img src="" alt="">
-                </div>
-                <div>
-                    <h2>subwoofer</h2>
-                    <img src="" alt="">
-                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            
+            
         </main>
         <footer class="container-fluid bg-dark">
             <div class="row text-white">
