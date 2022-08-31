@@ -12,11 +12,3 @@ margin: 10px 10px 10px 10px;
 .nuestra_historia{
     text-align: center;
 }
-.logo {
-    display: flex;
-    font-size: 20px;
-}
-.logo:hover {
-    transition: 1s;
-    font-size: 30px;
-}
